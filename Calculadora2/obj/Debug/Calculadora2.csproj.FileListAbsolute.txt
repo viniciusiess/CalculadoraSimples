@@ -1,0 +1,10 @@
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\bin\Debug\Calculadora2.exe.config
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\bin\Debug\Calculadora2.exe
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\bin\Debug\Calculadora2.pdb
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.csproj.AssemblyReference.cache
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.Form1.resources
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.Properties.Resources.resources
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.csproj.GenerateResource.cache
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.csproj.CoreCompileInputs.cache
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.exe
+C:\Users\siess\Documents\C#\Calculadora2\Calculadora2\obj\Debug\Calculadora2.pdb
