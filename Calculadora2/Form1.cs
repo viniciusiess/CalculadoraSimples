@@ -12,6 +12,11 @@ namespace Calculadora2
 {
     public partial class Form1 : Form
     {
+        private Adicao adicao = new Adicao();
+        private Subtracao subtracao = new Subtracao();
+        private Multiplicacao multiplicacao = new Multiplicacao();
+        private Divisao divisao = new Divisao();
+
         public Form1()
         {
             InitializeComponent();
@@ -24,22 +29,30 @@ namespace Calculadora2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = (float.Parse(txtNum1.Text) + float.Parse(txtNum2.Text)).ToString();
+            float num1 = float.Parse(txtNum1.Text);
+            float num2 = float.Parse(txtNum2.Text);
+            lblResultado.Text = adicao.PerformAdicao(num1, num2).ToString();
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = (float.Parse(txtNum1.Text) - float.Parse(txtNum2.Text)).ToString();
+            float num1 = float.Parse(txtNum1.Text);
+            float num2 = float.Parse(txtNum2.Text);
+            lblResultado.Text = subtracao.PerformSubtracao(num1, num2).ToString();
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = (float.Parse(txtNum1.Text) * float.Parse(txtNum2.Text)).ToString();
+            float num1 = float.Parse(txtNum1.Text);
+            float num2 = float.Parse(txtNum2.Text);
+            lblResultado.Text = multiplicacao.PerformMultiplicacao(num1, num2).ToString();
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = (float.Parse(txtNum1.Text) / float.Parse(txtNum2.Text)).ToString();
+            float num1 = float.Parse(txtNum1.Text);
+            float num2 = float.Parse(txtNum2.Text);
+            lblResultado.Text = subtracao.PerformSubtracao(num1, num2).ToString();
         }
     }
 }
